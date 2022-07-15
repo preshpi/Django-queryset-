@@ -12,6 +12,7 @@ from rest_framework.generics import UpdateAPIView
 from rest_framework.generics import DestroyAPIView
 from .serializers import LinkSerializer
 from .models import link
+from . import models 
 import datetime 
 
 
